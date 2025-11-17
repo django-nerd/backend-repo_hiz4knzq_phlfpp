@@ -1,27 +1,17 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [155] using StatReload
-INFO:     Started server process [157]
+INFO:     Started reloader process [207] using StatReload
+INFO:     Started server process [209]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:48820 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:55938 - "GET /api/stations HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55938 - "GET /api/stations HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55950 - "GET /api/plans HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55956 - "GET /api/bookings?user_email=jane%40example.com HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55938 - "GET /api/stations HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55950 - "GET /api/plans HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55956 - "GET /api/bookings?user_email=jane%40example.com HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55938 - "GET /api/stations HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55950 - "GET /api/plans HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55950 - "GET /api/plans HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54630 - "GET /api/stations HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54638 - "GET /api/plans HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54640 - "GET /api/bookings?user_email=jane%40example.com HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54638 - "GET /api/plans HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54646 - "GET /api/stations HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54640 - "GET /api/bookings?user_email=jane%40example.com HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54638 - "GET /api/plans HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54630 - "GET /api/stations HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54630 - "GET /api/plans HTTP/1.1" 200 OK
-INFO:     172.20.0.1:54638 - "GET /api/stations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59598 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:44768 - "GET /api/stations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44768 - "GET /api/stations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44772 - "GET /api/bookings?user_email=jane%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44770 - "GET /api/plans HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44768 - "GET /api/stations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44782 - "GET /api/plans HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44772 - "GET /api/bookings?user_email=jane%40example.com HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44768 - "GET /api/stations HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44782 - "GET /api/plans HTTP/1.1" 200 OK
+INFO:     172.20.0.1:44768 - "GET /api/plans HTTP/1.1" 200 OK
